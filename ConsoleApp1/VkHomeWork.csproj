@@ -64,22 +64,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="General\Command.cs" />
-    <Compile Include="General\FileWorker.cs" />
-    <Compile Include="General\Function\UpdateParser.cs" />
-    <Compile Include="General\GlobalSettings.cs" />
-    <Compile Include="General\Logger.cs" />
     <Compile Include="General\LongPollServer.cs" />
-    <Compile Include="General\Message.cs" />
+    <Compile Include="General\Settings.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="General\VK\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
       <Visible>False</Visible>
