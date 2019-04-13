@@ -106,3 +106,4 @@ C:\Prog\VkHomeWork\ConsoleApp1\obj\Release\VkHomeWork.csproj.CoreCompileInputs.c
 C:\Prog\VkHomeWork\ConsoleApp1\obj\Release\VkHomeWork.csproj.CopyComplete
 C:\Prog\VkHomeWork\ConsoleApp1\obj\Release\ConsoleApp1.exe
 C:\Prog\VkHomeWork\ConsoleApp1\obj\Release\ConsoleApp1.pdb
+C:\Prog\VkHomeWork\ConsoleApp1\obj\Release\VkHomeWork.csprojAssemblyReference.cache

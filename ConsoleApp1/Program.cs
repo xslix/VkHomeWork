@@ -21,7 +21,11 @@ namespace ConsoleApp1
                 string userid = Console.ReadLine();
                 try
                 {
-                    General.LongPollServer.longPollResponse(userid);
+                    var res = General.LongPollServer.longPollResponse(userid);
+                    foreach (var group in res)
+                    {
+                        Console.WriteLine(group.Item1 + " Comments: " + group.Item2.ToString() + " Likes: " + group.Item3.ToString());
+                    }
                 }
                 catch (Exception o)
                 {
